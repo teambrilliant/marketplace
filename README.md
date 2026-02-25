@@ -24,7 +24,7 @@ Central registry for discovering and installing Claude Code skill plugins.
 
 ## Adding a Plugin
 
-Add an entry to `marketplace.json` with `name`, `description`, `source`, and `version`, then push.
+Add an entry to `.claude-plugin/marketplace.json` with `name`, `description`, `source`, and `version`, then push.
 
 ## Team-Wide Auto-Install
 
