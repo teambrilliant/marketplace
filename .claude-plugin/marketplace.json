@@ -1,18 +1,28 @@
 {
-  "$schema": "../marketplace.schema.json",
-  "version": "1.0.0",
+  "name": "teambrilliant-marketplace",
+  "owner": {
+    "name": "Team Brilliant"
+  },
   "plugins": [
     {
       "name": "tap-skills",
       "description": "TAP methodology — audit, QA, blast radius, system health, retrospective",
-      "source": "teambrilliant/tap-skills",
-      "version": "latest"
+      "source": {
+        "source": "github",
+        "repo": "teambrilliant/tap-skills"
+      }
     },
     {
       "name": "dev-skills",
       "description": "Developer workflow skills for Claude Code",
-      "source": "teambrilliant/dev-skills",
-      "version": "latest"
+      "source": {
+        "source": "github",
+        "repo": "teambrilliant/dev-skills"
+      }
     }
-  ]
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Team Brilliant plugin marketplace"
+  }
 }
