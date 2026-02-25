@@ -1,0 +1,12 @@
+{
+  "$schema": "./marketplace.schema.json",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "tap-skills",
+      "description": "TAP methodology — audit, QA, blast radius, system health, retrospective",
+      "source": "teambrilliant/tap-skills",
+      "version": "latest"
+    }
+  ]
+}
