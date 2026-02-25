@@ -7,6 +7,12 @@
       "description": "TAP methodology — audit, QA, blast radius, system health, retrospective",
       "source": "teambrilliant/tap-skills",
       "version": "latest"
+    },
+    {
+      "name": "dev-skills",
+      "description": "Developer workflow skills for Claude Code",
+      "source": "teambrilliant/dev-skills",
+      "version": "latest"
     }
   ]
 }

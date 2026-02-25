@@ -20,6 +20,7 @@ Central registry for discovering and installing Claude Code skill plugins.
 | Plugin       | Description                                                             |
 | ------------ | ----------------------------------------------------------------------- |
 | `tap-skills` | TAP methodology — audit, QA, blast radius, system health, retrospective |
+| `dev-skills` | Developer workflow skills for Claude Code                                |
 
 ## Adding a Plugin
 
