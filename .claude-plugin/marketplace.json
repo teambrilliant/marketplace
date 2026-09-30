@@ -8,16 +8,16 @@
       "name": "tap-skills",
       "description": "TAP methodology — audit, QA, blast radius, system health, retrospective",
       "source": {
-        "source": "github",
-        "repo": "teambrilliant/tap-skills"
+        "source": "url",
+        "url": "https://github.com/teambrilliant/tap-skills.git"
       }
     },
     {
       "name": "dev-skills",
       "description": "Developer workflow skills for Claude Code",
       "source": {
-        "source": "github",
-        "repo": "teambrilliant/dev-skills"
+        "source": "url",
+        "url": "https://github.com/teambrilliant/dev-skills.git"
       }
     }
   ],
