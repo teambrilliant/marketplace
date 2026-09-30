@@ -15,6 +15,19 @@ Central registry for discovering and installing Claude Code skill plugins.
 /plugin install tap-skills@teambrilliant
 ```
 
+### Codex (CLI + Mac app)
+
+```bash
+codex plugin marketplace add teambrilliant/marketplace
+codex plugin add dev-skills@teambrilliant-marketplace
+codex plugin add tap-skills@teambrilliant-marketplace
+
+# Pull latest
+codex plugin marketplace upgrade teambrilliant-marketplace
+```
+
+Plugin sources use `"source": "url"` — Codex doesn't support Claude's `"github"` shorthand; `url` works in both.
+
 ## Available Plugins
 
 | Plugin       | Description                                                             |
