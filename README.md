@@ -26,6 +26,12 @@ codex plugin add tap-skills@teambrilliant-marketplace
 codex plugin marketplace upgrade teambrilliant-marketplace
 ```
 
+Mods (function-hook plugins) live inside their skills repo and are listed with `"source": "git-subdir"` — only that folder is fetched. Claude Code only.
+
+```bash
+/plugin install thoughts@teambrilliant-marketplace
+```
+
 Plugin sources use `"source": "url"` — Codex doesn't support Claude's `"github"` shorthand; `url` works in both.
 
 ## Available Plugins
@@ -34,6 +40,7 @@ Plugin sources use `"source": "url"` — Codex doesn't support Claude's `"github
 | ------------ | ----------------------------------------------------------------------- |
 | `tap-skills` | TAP methodology — audit, QA, blast radius, system health, retrospective |
 | `dev-skills` | Developer workflow skills for Claude Code                                |
+| `thoughts`   | Mod: plan progress + pinned ★ views in a side pane (Claude Code only, early-access mods API) |
 
 ## Adding a Plugin
 
