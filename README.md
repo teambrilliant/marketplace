@@ -26,7 +26,7 @@ codex plugin add tap-skills@teambrilliant-marketplace
 codex plugin marketplace upgrade teambrilliant-marketplace
 ```
 
-Mods (function-hook plugins) live inside their skills repo and are listed with `"source": "git-subdir"` — only that folder is fetched. Claude Code only.
+Mods (function-hook plugins) live in [claude-code-mods](https://github.com/teambrilliant/claude-code-mods), one folder each, listed with `"source": "git-subdir"` — only that folder is fetched. Claude Code only.
 
 ```bash
 /plugin install thoughts@teambrilliant-marketplace

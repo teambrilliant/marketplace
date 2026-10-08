@@ -25,7 +25,7 @@
       "description": "Pane into the work: plan progress from thoughts/plans and the session's pinned ★ views (mod, early-access API)",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/teambrilliant/dev-skills.git",
+        "url": "https://github.com/teambrilliant/claude-code-mods.git",
         "path": "mods/thoughts"
       }
     }
