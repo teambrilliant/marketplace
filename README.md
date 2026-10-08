@@ -15,6 +15,14 @@ Central registry for discovering and installing Claude Code skill plugins.
 /plugin install tap-skills@teambrilliant
 ```
 
+### Mods (Claude Code only)
+
+```bash
+/plugin install thoughts@teambrilliant-marketplace
+```
+
+Mods are function-hook plugins. They live in [claude-code-mods](https://github.com/teambrilliant/claude-code-mods), one folder each. Each one is listed with a `"source": "git-subdir"` entry, so an install fetches only that mod's folder.
+
 ### Codex (CLI + Mac app)
 
 ```bash
@@ -24,12 +32,6 @@ codex plugin add tap-skills@teambrilliant-marketplace
 
 # Pull latest
 codex plugin marketplace upgrade teambrilliant-marketplace
-```
-
-Mods (function-hook plugins) live in [claude-code-mods](https://github.com/teambrilliant/claude-code-mods), one folder each, listed with `"source": "git-subdir"` — only that folder is fetched. Claude Code only.
-
-```bash
-/plugin install thoughts@teambrilliant-marketplace
 ```
 
 Plugin sources use `"source": "url"` — Codex doesn't support Claude's `"github"` shorthand; `url` works in both.
