@@ -15,6 +15,14 @@ Central registry for discovering and installing Claude Code skill plugins.
 /plugin install tap-skills@teambrilliant
 ```
 
+### Mods (Claude Code only)
+
+```bash
+/plugin install thoughts@teambrilliant-marketplace
+```
+
+Mods are function-hook plugins. They live in [claude-code-mods](https://github.com/teambrilliant/claude-code-mods), one folder each. Each one is listed with a `"source": "git-subdir"` entry, so an install fetches only that mod's folder.
+
 ### Codex (CLI + Mac app)
 
 ```bash
@@ -34,6 +42,7 @@ Plugin sources use `"source": "url"` — Codex doesn't support Claude's `"github
 | ------------ | ----------------------------------------------------------------------- |
 | `tap-skills` | TAP methodology — audit, QA, blast radius, system health, retrospective |
 | `dev-skills` | Developer workflow skills for Claude Code                                |
+| `thoughts`   | Mod: plan progress + pinned ★ views in a side pane (Claude Code only, early-access mods API) |
 
 ## Adding a Plugin
 
