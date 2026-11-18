@@ -45,7 +45,7 @@ Plugin sources use `"source": "url"` or `"git-subdir"` — Codex doesn't support
 | `tap-pane`   | Pane: plan progress + pinned ★ views (Claude Code only, early-access API) |
 | `together`   | Shared checklists in `tap/lists` with a side pane (Claude Code only, early-access API) |
 
-Still listed until existing installs have moved, and replaced by the plugins above: `dev-skills`, `tap-skills`, `thoughts`.
+`dev-skills`, `tap-skills` and `thoughts` are no longer listed; the plugins above replace them. Uninstall them with `/plugin uninstall <name>@teambrilliant-marketplace`.
 
 ## Adding a Plugin
 
